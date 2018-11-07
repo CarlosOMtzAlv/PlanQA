@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF.Plant.Metrics", "WPF.Plant.Metrics\WPF.Plant.Metrics.csproj", "{F84DA622-A523-45B2-8FBB-22CD1C04D75A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APP.Plant.Engineer", "APP.Plant.Engineer\APP.Plant.Engineer.csproj", "{F494FCEC-F3DF-400B-9784-C7C9AD0EC128}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cons.API.SendAlerts", "..\Console.API.Metrics\Cons.API.SendAlerts\Cons.API.SendAlerts.csproj", "{FEF2B76A-F27A-4730-B26F-2939060E2DE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cons.API.Metrics", "..\Console.API.Metrics\Console.API.Metrics\Cons.API.Metrics.csproj", "{71144F7F-C09C-441D-868B-0C489172F022}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RealTimeReports", "RealTimeReports\RealTimeReports.vdproj", "{9F7677FF-C4CE-48C2-881B-ABFEA90E0464}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RealTimeEfficiency", "RealTimeEfficiency\RealTimeEfficiency.vdproj", "{1ABA16D8-581A-46B3-8192-762BA239259B}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "APIMetrics", "APIMetrics\APIMetrics.vdproj", "{23D1F561-8707-4DC4-8726-B07D43BB6BBD}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AlertsConsole", "AlertsConsole\AlertsConsole.vdproj", "{46C0730B-B42B-4FC4-B440-6C7BEC4B44BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F84DA622-A523-45B2-8FBB-22CD1C04D75A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F84DA622-A523-45B2-8FBB-22CD1C04D75A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F84DA622-A523-45B2-8FBB-22CD1C04D75A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F84DA622-A523-45B2-8FBB-22CD1C04D75A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F494FCEC-F3DF-400B-9784-C7C9AD0EC128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F494FCEC-F3DF-400B-9784-C7C9AD0EC128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F494FCEC-F3DF-400B-9784-C7C9AD0EC128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F494FCEC-F3DF-400B-9784-C7C9AD0EC128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEF2B76A-F27A-4730-B26F-2939060E2DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF2B76A-F27A-4730-B26F-2939060E2DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF2B76A-F27A-4730-B26F-2939060E2DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF2B76A-F27A-4730-B26F-2939060E2DE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71144F7F-C09C-441D-868B-0C489172F022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71144F7F-C09C-441D-868B-0C489172F022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71144F7F-C09C-441D-868B-0C489172F022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71144F7F-C09C-441D-868B-0C489172F022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F7677FF-C4CE-48C2-881B-ABFEA90E0464}.Debug|Any CPU.ActiveCfg = Debug
+		{9F7677FF-C4CE-48C2-881B-ABFEA90E0464}.Release|Any CPU.ActiveCfg = Release
+		{1ABA16D8-581A-46B3-8192-762BA239259B}.Debug|Any CPU.ActiveCfg = Debug
+		{1ABA16D8-581A-46B3-8192-762BA239259B}.Release|Any CPU.ActiveCfg = Release
+		{23D1F561-8707-4DC4-8726-B07D43BB6BBD}.Debug|Any CPU.ActiveCfg = Debug
+		{23D1F561-8707-4DC4-8726-B07D43BB6BBD}.Release|Any CPU.ActiveCfg = Release
+		{46C0730B-B42B-4FC4-B440-6C7BEC4B44BF}.Debug|Any CPU.ActiveCfg = Debug
+		{46C0730B-B42B-4FC4-B440-6C7BEC4B44BF}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5079D57-21B7-4116-AA8E-6AC7990616F3}
+	EndGlobalSection
+EndGlobal
